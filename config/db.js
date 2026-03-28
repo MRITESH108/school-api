@@ -1,5 +1,7 @@
 const mysql = require("mysql2");
-
+if (process.env.NODE_ENV !== "production") {
+  require("dotenv").config();
+}
 const db = mysql.createConnection(process.env.DATABASE_URL);
 
 db.connect((err) => {
