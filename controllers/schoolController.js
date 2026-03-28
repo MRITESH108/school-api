@@ -1,5 +1,5 @@
 const db = require("../config/db");
-const getDistance = require("../utils/getdistance");
+const getDistance = require("../utils/getDistance");
 
 
 // add school
