@@ -8,7 +8,7 @@ app.use(express.json());
 
 app.use('/', schoolRouter);
 
-const PORT = process.env.PORT; // node js don't need dotenv to install anymore
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, ()=>{
     console.log("Server is running ");
     

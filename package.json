@@ -4,8 +4,8 @@
   "description": "Educase India internshalla",
   "main": "index.js",
   "scripts": {
-    "start": "node --env-file=.env index.js",
-    "dev": "nodemon --env-file=.env --watch index.js",
+    "start": "node  index.js",
+    "dev": "nodemon  index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +22,7 @@
   "homepage": "https://github.com/MRITESH108/school-api#readme",
   "dependencies": {
     "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
     "express": "^5.2.1",
     "mysql2": "^3.20.0"
   },
